@@ -64,7 +64,7 @@ if exist('all', 'var')
 end
 
 % Clear all variables in the workspace
-clear('all')
+clear('variables')
 
 % Unlock all m-files, mex-files so they can be cleared properly
 munlock
