@@ -63,6 +63,9 @@ if exist('all', 'var')
     clear('all')
 end
 
+% Close all open file handles
+fclose('all');
+
 % Clear all variables in the workspace
 clear('variables')
 
@@ -72,9 +75,6 @@ clear('functions')
 
 % Clear all the classes from Matlab's memory to reload definitions
 clear('classes')
-
-% Close all open file handles
-fclose('all');
 
 % Go ahead and clear out the command window display
 clc
